@@ -1,8 +1,9 @@
 from selenium.common.exceptions import NoSuchElementException
 
 from browser_operation import Login
-from public import CustomizationLog, readConfig
-from public import ReadWriteExcelData
+from sePublic import CustomizationLog
+from sePublic import ReadConfig
+from sePublic import ReadWriteExcelData
 
 # Python导入模块的方法有两种：import module 和 from module import，区别是前者所有导入的东西使用时需加上模块名的限定，而后者不要。
 my_logger = CustomizationLog.CustomizationLog("Login_Case")
@@ -10,7 +11,7 @@ my_logger = CustomizationLog.CustomizationLog("Login_Case")
 
 class LoginCase:
     def __init__(self):
-        self.test_excel = ReadWriteExcelData.ReadWriteExcelData(readConfig.root_path + r"\test_case\user_test.xlsx")
+        self.test_excel = ReadWriteExcelData.ReadWriteExcelData(ReadConfig.root_path + r"\test_case\user_test.xlsx")
         self.test_list = self.test_excel.read_data('login')
         self.login_operation = Login.Login()
 
@@ -57,7 +58,7 @@ class LoginCase:
                     self.test_list[i][self.test_excel.col_index(self.test_list, 'test_results')] = 'fail'
                     # 失败时，保存图片到image目录
                     self.login_operation.dr.get_screenshot_as_file(
-                            readConfig.root_path + r'\results\results_image\login_fail.png')
+                            ReadConfig.root_path + r'\results\results_image\login_fail.png')
                     self.login_operation.clear()
                     my_logger.info("用例[%s,%s,%s]失败！" % (username, password, org_code))
         # 关闭浏览器

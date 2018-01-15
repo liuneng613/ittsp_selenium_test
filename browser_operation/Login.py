@@ -1,10 +1,12 @@
 from selenium import webdriver
 from selenium.common.exceptions import NoSuchElementException
 
-from public import CustomizationLog, readConfig
+from sePublic import CustomizationLog
+from sePublic import ReadConfig
 
 # Python导入模块的方法有两种：import module 和 from module import，区别是前者所有导入的东西使用时需加上模块名的限定，而后者不要。
 my_logger = CustomizationLog.CustomizationLog("LoginCase")
+rc = ReadConfig.ReadConfig("config.ini")
 
 
 class Login:
@@ -18,7 +20,7 @@ class Login:
     def __init__(self):
         # 创建浏览器对象
         self.dr = webdriver.Firefox()
-        self.dr.get(readConfig.ittsp_url)
+        self.dr.get(rc.get_ittsp("ittsp_url"))
         self.dr.maximize_window()
 
     def login(self, username, password, org_code):
