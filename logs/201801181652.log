@@ -1,0 +1,5 @@
+2018-01-18 16:52:36 - Login_Case - CustomizationLog.py - info - INFO - 用例[system,123,B]通过！
+2018-01-18 16:52:37 - Login_Case - CustomizationLog.py - info - INFO - 用例[syste,system@123,B]通过！
+2018-01-18 16:52:37 - Login_Case - CustomizationLog.py - info - INFO - 用例[system,system@123,B00001]通过！
+2018-01-18 16:52:52 - Login_Case - CustomizationLog.py - info - INFO - 用例[system,system@123,B]通过！
+2018-01-18 16:52:53 - Login_Case - CustomizationLog.py - info - INFO - 用例[,system@123,B]失败！

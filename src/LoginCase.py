@@ -46,7 +46,7 @@ class LoginCase:
                     self.login_operation.clear()
             except NoSuchElementException:
                 actual_results = self.login_operation.dr.find_element_by_xpath(
-                        '//*[@id="loginBody"]/div/div[1]/div/div[2]/em').text
+                        '//*[@id="loginBody"]/div/div[1]/dv/div[2]/em').text
                 # 预期结果与实现结果对比
                 if expected_results == actual_results:
                     self.test_list[i][self.test_excel.col_index(self.test_list, 'actual_results')] = actual_results

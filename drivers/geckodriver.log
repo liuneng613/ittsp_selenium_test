@@ -1,0 +1,30 @@
+1524576508981	geckodriver	INFO	geckodriver 0.19.0
+1524576508994	geckodriver	INFO	Listening on 127.0.0.1:59177
+1524576511175	mozrunner::runner	INFO	Running command: "E:\\Program Files (x86)\\firefox52.0.1\\firefox.exe" "-marionette" "-profile" "C:\\Users\\58465\\AppData\\Local\\Temp\\rust_mozprofile.LUEYYmYusPaV"
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1524576513160	Marionette	INFO	Listening on port 2828
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1524576573842	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+1524576724770	geckodriver	INFO	geckodriver 0.19.0
+1524576724776	geckodriver	INFO	Listening on 127.0.0.1:59351
+1524576726886	mozrunner::runner	INFO	Running command: "E:\\Program Files (x86)\\firefox52.0.1\\firefox.exe" "-marionette" "-profile" "C:\\Users\\58465\\AppData\\Local\\Temp\\rust_mozprofile.ivCKFCJvy4fb"
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1524576728926	Marionette	INFO	Listening on port 2828
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+[Child 8456] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+[Child 8456] WARNING: pipe error: 109:1524577211331	geckodriver	INFO	geckodriver 0.19.0
+1524577211337	geckodriver	INFO	Listening on 127.0.0.1:59921
+1524577213469	mozrunner::runner	INFO	Running command: "E:\\Program Files (x86)\\firefox52.0.1\\firefox.exe" "-marionette" "-profile" "C:\\Users\\58465\\AppData\\Local\\Temp\\rust_mozprofile.YPuTOlatonPY"
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1524577215578	Marionette	INFO	Listening on port 2828
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+JavaScript error: https://captcha.gtimg.com/public/2/tdc_iframe.html, line 10: NS_ERROR_FAILURE: 
+[Parent 1700] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+[Child 13284] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+[Child 13284] WARNING: pipe error: 101524577625405	geckodriver	INFO	geckodriver 0.19.0
+1524577625410	geckodriver	INFO	Listening on 127.0.0.1:60704
+1524577627512	mozrunner::runner	INFO	Running command: "E:\\Program Files (x86)\\firefox52.0.1\\firefox.exe" "-marionette" "-profile" "C:\\Users\\58465\\AppData\\Local\\Temp\\rust_mozprofile.pCtaGIX9WAuJ"
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1524577629536	Marionette	INFO	Listening on port 2828
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+[Child 4264] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345

@@ -2901,3 +2901,11 @@ Unable to read VR Path Registry from C:\Users\liun\AppData\Local\openvr\openvrpa
 [Child 2264, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
 Unable to read VR Path Registry from C:\Users\liun\AppData\Local\openvr\openvrpaths.vrpath
 [GPU 924, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1524577824041	geckodriver	INFO	geckodriver 0.20.1
+1524577824048	geckodriver	INFO	Listening on 127.0.0.1:60886
+1524577826109	mozrunner::runner	INFO	Running command: "E:\\Program Files (x86)\\firefox52.0.1\\firefox.exe" "-marionette" "-profile" "C:\\Users\\58465\\AppData\\Local\\Temp\\rust_mozprofile.iJoEfcVskcZC"
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1524577828128	Marionette	INFO	Listening on port 2828
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+[Child 11568] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+[Child 11568] WARNING: pipe error: 109: file c
